@@ -1,0 +1,1 @@
+SELECT Students.id, Students.name, Enrollment.country FROM Students INNER JOIN Enrollment ON Students.id = Enrollment.id;

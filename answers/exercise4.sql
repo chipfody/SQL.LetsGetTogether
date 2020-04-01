@@ -1,0 +1,1 @@
+SELECT Enrollment.Country, COUNT(*) AS TOTAL FROM Enrollment GROUP BY Country;

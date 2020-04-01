@@ -1,0 +1,1 @@
+SELECT Enrollment.Country, COUNT(*) AS TOTAL FROM Enrollment GROUP BY Country HAVING Count(*) > 10 ORDER BY 2 DESC;

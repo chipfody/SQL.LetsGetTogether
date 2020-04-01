@@ -1,0 +1,1 @@
+SELECT Students.id, Students.Name, Enrollment.country FROM Students LEFT JOIN Enrollment ON Students.id = Enrollment.id;
